@@ -4,18 +4,18 @@ import Login from './pages/login';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <StatusBar style="auto" />
+    // <View style={styles.container}>
+    //   <StatusBar style="auto" />
+    // </View>
       <Login/>
-    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+  // container: {
+  //   flex: 1,
+  //   backgroundColor: '#fff',
+  //   alignItems: 'center',
+  //   justifyContent: 'center',
+  // },
 });
